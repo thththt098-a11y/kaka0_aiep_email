@@ -4,7 +4,7 @@ import pandas as pd
 app = Flask(__name__)
 
 # 📌 구글 시트에서 '웹에 게시'한 CSV URL
-GOOGLE_SHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/1a-hjsuwPQj-fYprkOSe8w3h937EhkYrh39gYilE_I4E/edit?gid=342792140#gid=342792140"
+GOOGLE_SHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQGedjmRmY8xOs1TyW9AFHrlQa7yJQRQ5Ni__InlPF7g_IHYKRSjNyGBhubnYOYE-GQEl1P16I33Ycx/pub?output=csv"
 
 @app.route('/api/kakao/check-status', methods=['POST'])
 def check_status():
